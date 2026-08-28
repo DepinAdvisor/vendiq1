@@ -1,0 +1,61 @@
+<!-- Copito de fiesta (objetos: gorrito de cumpleaños, confeti) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none" role="img">
+  <title>Copito de fiesta — mascota de Planeta Algodón</title>
+  <defs>
+    <radialGradient id="copito-fiesta-body" cx="38%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFC4DE"/>
+      <stop offset="55%" stop-color="#F48FB8"/>
+      <stop offset="100%" stop-color="#B49CFF"/>
+    </radialGradient>
+    <clipPath id="copito-fiesta-hat">
+      <path d="M100 2L122 44L78 44Z"/>
+    </clipPath>
+  </defs>
+  <!-- anillo orbital -->
+  <ellipse cx="100" cy="100" rx="88" ry="30" transform="rotate(-16 100 100)" stroke="#B49CFF" stroke-width="5" opacity="0.55"/>
+  <!-- cuerpo esponjoso -->
+  <g fill="url(#copito-fiesta-body)">
+    <circle cx="146" cy="100" r="24"/>
+    <circle cx="132.5" cy="132.5" r="24"/>
+    <circle cx="100" cy="146" r="24"/>
+    <circle cx="67.5" cy="132.5" r="24"/>
+    <circle cx="54" cy="100" r="24"/>
+    <circle cx="67.5" cy="67.5" r="24"/>
+    <circle cx="100" cy="54" r="24"/>
+    <circle cx="132.5" cy="67.5" r="24"/>
+    <circle cx="100" cy="100" r="56"/>
+  </g>
+  <!-- remolinos de algodón -->
+  <path d="M66 84c10 7 16-3 28 2M110 130c8-6 16 2 24-3" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <!-- ojos -->
+  <circle cx="82" cy="92" r="7.5" fill="#3A2A63"/>
+  <circle cx="118" cy="92" r="7.5" fill="#3A2A63"/>
+  <circle cx="84.5" cy="89.5" r="2.6" fill="#FFFFFF"/>
+  <circle cx="120.5" cy="89.5" r="2.6" fill="#FFFFFF"/>
+  <!-- sonrojo -->
+  <ellipse cx="68" cy="108" rx="9" ry="5.5" fill="#FF8FB3" opacity="0.85"/>
+  <ellipse cx="132" cy="108" rx="9" ry="5.5" fill="#FF8FB3" opacity="0.85"/>
+  <!-- sonrisa -->
+  <path d="M91 110c6 7 12 7 18 0" stroke="#3A2A63" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- gorrito de fiesta -->
+  <g>
+    <path d="M100 2L122 44L78 44Z" fill="#FF8FB3"/>
+    <g clip-path="url(#copito-fiesta-hat)">
+      <path d="M87.4 26L112.6 26L116.2 33L83.8 33Z" fill="#FFFFFF" opacity="0.8"/>
+      <path d="M95.8 10L104.2 10L107.9 17L92.1 17Z" fill="#FFFFFF" opacity="0.8"/>
+    </g>
+    <circle cx="100" cy="5.5" r="5.5" fill="#FFD96B"/>
+  </g>
+  <!-- confeti -->
+  <rect x="26.5" y="69.75" width="9" height="4.5" rx="2.25" fill="#7FE0C8" transform="rotate(20 31 72)"/>
+  <rect x="167.5" y="71.75" width="9" height="4.5" rx="2.25" fill="#7FB8FF" transform="rotate(-15 172 74)"/>
+  <rect x="19.5" y="109.75" width="9" height="4.5" rx="2.25" fill="#FFD96B" transform="rotate(40 24 112)"/>
+  <rect x="171.5" y="117.75" width="9" height="4.5" rx="2.25" fill="#FF8FB3" transform="rotate(-30 176 120)"/>
+  <rect x="19.5" y="143.75" width="9" height="4.5" rx="2.25" fill="#B49CFF" transform="rotate(10 24 146)"/>
+  <rect x="165.5" y="137.75" width="9" height="4.5" rx="2.25" fill="#7FE0C8" transform="rotate(-25 170 140)"/>
+  <!-- estrellitas -->
+  <path d="M30 32l3.2 7.3 7.3 3.2-7.3 3.2-3.2 7.3-3.2-7.3-7.3-3.2 7.3-3.2 3.2-7.3z" fill="#FFD96B"/>
+  <path d="M172 46l2.6 6 6 2.6-6 2.6-2.6 6-2.6-6-6-2.6 6-2.6 2.6-6z" fill="#FF8FB3"/>
+  <circle cx="164" cy="150" r="3.5" fill="#7FB8FF"/>
+  <circle cx="38" cy="158" r="3" fill="#7FE0C8"/>
+</svg>

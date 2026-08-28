@@ -1,0 +1,42 @@
+<!-- Copito variante tinta (monocroma, para impresión / un color) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none" role="img">
+  <title>Copito tinta — mascota de Planeta Algodón (monocromo)</title>
+  <defs>
+    <radialGradient id="copito-ink-body" cx="38%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#D9D4EA"/>
+      <stop offset="100%" stop-color="#9E93C4"/>
+    </radialGradient>
+  </defs>
+  <!-- anillo orbital -->
+  <ellipse cx="100" cy="100" rx="88" ry="30" transform="rotate(-16 100 100)" stroke="#8E7BC4" stroke-width="5" opacity="0.55"/>
+  <!-- cuerpo esponjoso -->
+  <g fill="url(#copito-ink-body)">
+    <circle cx="146" cy="100" r="24"/>
+    <circle cx="132.5" cy="132.5" r="24"/>
+    <circle cx="100" cy="146" r="24"/>
+    <circle cx="67.5" cy="132.5" r="24"/>
+    <circle cx="54" cy="100" r="24"/>
+    <circle cx="67.5" cy="67.5" r="24"/>
+    <circle cx="100" cy="54" r="24"/>
+    <circle cx="132.5" cy="67.5" r="24"/>
+    <circle cx="100" cy="100" r="56"/>
+  </g>
+  <!-- remolinos de algodón -->
+  <path d="M66 84c10 7 16-3 28 2M110 130c8-6 16 2 24-3" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+  <!-- ojos -->
+  <circle cx="82" cy="92" r="7.5" fill="#3A2A63"/>
+  <circle cx="118" cy="92" r="7.5" fill="#3A2A63"/>
+  <circle cx="84.5" cy="89.5" r="2.6" fill="#FFFFFF"/>
+  <circle cx="120.5" cy="89.5" r="2.6" fill="#FFFFFF"/>
+  <!-- sonrojo -->
+  <ellipse cx="68" cy="108" rx="9" ry="5.5" fill="#C9C0E0" opacity="0.85"/>
+  <ellipse cx="132" cy="108" rx="9" ry="5.5" fill="#C9C0E0" opacity="0.85"/>
+  <!-- sonrisa -->
+  <path d="M91 110c6 7 12 7 18 0" stroke="#3A2A63" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- estrellitas -->
+  <path d="M30 32l3.2 7.3 7.3 3.2-7.3 3.2-3.2 7.3-3.2-7.3-7.3-3.2 7.3-3.2 3.2-7.3z" fill="#B8AEDB"/>
+  <path d="M172 46l2.6 6 6 2.6-6 2.6-2.6 6-2.6-6-6-2.6 6-2.6 2.6-6z" fill="#A79BD2"/>
+  <circle cx="164" cy="150" r="3.5" fill="#A79BD2"/>
+  <circle cx="38" cy="158" r="3" fill="#C9C0E0"/>
+</svg>

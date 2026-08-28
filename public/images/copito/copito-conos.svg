@@ -1,0 +1,67 @@
+<!-- Copito con algodones de azúcar alrededor (objetos: conos) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none" role="img">
+  <title>Copito con algodones de azúcar — mascota de Planeta Algodón</title>
+  <defs>
+    <radialGradient id="copito-conos-body" cx="38%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFC4DE"/>
+      <stop offset="55%" stop-color="#F48FB8"/>
+      <stop offset="100%" stop-color="#B49CFF"/>
+    </radialGradient>
+  </defs>
+  <!-- anillo orbital -->
+  <ellipse cx="100" cy="100" rx="88" ry="30" transform="rotate(-16 100 100)" stroke="#B49CFF" stroke-width="5" opacity="0.55"/>
+  <!-- cuerpo esponjoso -->
+  <g fill="url(#copito-conos-body)">
+    <circle cx="146" cy="100" r="24"/>
+    <circle cx="132.5" cy="132.5" r="24"/>
+    <circle cx="100" cy="146" r="24"/>
+    <circle cx="67.5" cy="132.5" r="24"/>
+    <circle cx="54" cy="100" r="24"/>
+    <circle cx="67.5" cy="67.5" r="24"/>
+    <circle cx="100" cy="54" r="24"/>
+    <circle cx="132.5" cy="67.5" r="24"/>
+    <circle cx="100" cy="100" r="56"/>
+  </g>
+  <!-- remolinos de algodón -->
+  <path d="M66 84c10 7 16-3 28 2M110 130c8-6 16 2 24-3" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <!-- ojos -->
+  <circle cx="82" cy="92" r="7.5" fill="#3A2A63"/>
+  <circle cx="118" cy="92" r="7.5" fill="#3A2A63"/>
+  <circle cx="84.5" cy="89.5" r="2.6" fill="#FFFFFF"/>
+  <circle cx="120.5" cy="89.5" r="2.6" fill="#FFFFFF"/>
+  <!-- sonrojo -->
+  <ellipse cx="68" cy="108" rx="9" ry="5.5" fill="#FF8FB3" opacity="0.85"/>
+  <ellipse cx="132" cy="108" rx="9" ry="5.5" fill="#FF8FB3" opacity="0.85"/>
+  <!-- sonrisa -->
+  <path d="M91 110c6 7 12 7 18 0" stroke="#3A2A63" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- algodones de azúcar -->
+  <g transform="translate(34 160) rotate(-10)">
+    <rect x="-3.5" y="-2" width="7" height="40" rx="3.5" fill="#FFFFFF" stroke="#D8CCE8" stroke-width="1.5"/>
+    <circle cx="0" cy="-6" r="13" fill="#FF9DC0"/>
+    <circle cx="-11" cy="-12" r="9.5" fill="#FFB7D5"/>
+    <circle cx="11" cy="-12" r="9.5" fill="#FFC4DE"/>
+    <circle cx="0" cy="-17" r="9" fill="#FFB7D5"/>
+    <path d="M-8 -8c3 2 7-1 10 1" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <g transform="translate(168 162) rotate(8)">
+    <rect x="-3.5" y="-2" width="7" height="40" rx="3.5" fill="#FFFFFF" stroke="#D8CCE8" stroke-width="1.5"/>
+    <circle cx="0" cy="-6" r="13" fill="#7FB8FF"/>
+    <circle cx="-11" cy="-12" r="9.5" fill="#A9CFFF"/>
+    <circle cx="11" cy="-12" r="9.5" fill="#CDEBFF"/>
+    <circle cx="0" cy="-17" r="9" fill="#A9CFFF"/>
+    <path d="M-8 -8c3 2 7-1 10 1" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <g transform="translate(26 58) rotate(15)">
+    <rect x="-3.5" y="-2" width="7" height="40" rx="3.5" fill="#FFFFFF" stroke="#D8CCE8" stroke-width="1.5"/>
+    <circle cx="0" cy="-6" r="13" fill="#7FE0C8"/>
+    <circle cx="-11" cy="-12" r="9.5" fill="#B2EBDD"/>
+    <circle cx="11" cy="-12" r="9.5" fill="#C9F7E6"/>
+    <circle cx="0" cy="-17" r="9" fill="#B2EBDD"/>
+    <path d="M-8 -8c3 2 7-1 10 1" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+  <!-- estrellitas -->
+  <path d="M30 32l3.2 7.3 7.3 3.2-7.3 3.2-3.2 7.3-3.2-7.3-7.3-3.2 7.3-3.2 3.2-7.3z" fill="#FFD96B"/>
+  <path d="M172 46l2.6 6 6 2.6-6 2.6-2.6 6-2.6-6-6-2.6 6-2.6 2.6-6z" fill="#FF8FB3"/>
+  <circle cx="164" cy="150" r="3.5" fill="#7FB8FF"/>
+  <circle cx="38" cy="158" r="3" fill="#7FE0C8"/>
+</svg>

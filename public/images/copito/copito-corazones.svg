@@ -1,0 +1,46 @@
+<!-- Copito con corazones (objetos: corazones flotantes) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="none" role="img">
+  <title>Copito con corazones — mascota de Planeta Algodón</title>
+  <defs>
+    <radialGradient id="copito-corazones-body" cx="38%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFC4DE"/>
+      <stop offset="55%" stop-color="#F48FB8"/>
+      <stop offset="100%" stop-color="#B49CFF"/>
+    </radialGradient>
+  </defs>
+  <!-- anillo orbital -->
+  <ellipse cx="100" cy="100" rx="88" ry="30" transform="rotate(-16 100 100)" stroke="#B49CFF" stroke-width="5" opacity="0.55"/>
+  <!-- cuerpo esponjoso -->
+  <g fill="url(#copito-corazones-body)">
+    <circle cx="146" cy="100" r="24"/>
+    <circle cx="132.5" cy="132.5" r="24"/>
+    <circle cx="100" cy="146" r="24"/>
+    <circle cx="67.5" cy="132.5" r="24"/>
+    <circle cx="54" cy="100" r="24"/>
+    <circle cx="67.5" cy="67.5" r="24"/>
+    <circle cx="100" cy="54" r="24"/>
+    <circle cx="132.5" cy="67.5" r="24"/>
+    <circle cx="100" cy="100" r="56"/>
+  </g>
+  <!-- remolinos de algodón -->
+  <path d="M66 84c10 7 16-3 28 2M110 130c8-6 16 2 24-3" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.55"/>
+  <!-- ojos -->
+  <circle cx="82" cy="92" r="7.5" fill="#3A2A63"/>
+  <circle cx="118" cy="92" r="7.5" fill="#3A2A63"/>
+  <circle cx="84.5" cy="89.5" r="2.6" fill="#FFFFFF"/>
+  <circle cx="120.5" cy="89.5" r="2.6" fill="#FFFFFF"/>
+  <!-- sonrojo -->
+  <ellipse cx="68" cy="108" rx="9" ry="5.5" fill="#FF8FB3" opacity="0.85"/>
+  <ellipse cx="132" cy="108" rx="9" ry="5.5" fill="#FF8FB3" opacity="0.85"/>
+  <!-- sonrisa -->
+  <path d="M91 110c6 7 12 7 18 0" stroke="#3A2A63" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- corazones -->
+  <path d="M50 32C50 24 57 19 64 19C71 19 78 24 78 32C78 44 64 54 64 54C64 54 50 44 50 32Z" fill="#FF8FB3" transform="translate(-17.2 12.8) scale(0.8)"/>
+  <path d="M50 32C50 24 57 19 64 19C71 19 78 24 78 32C78 44 64 54 64 54C64 54 50 44 50 32Z" fill="#B49CFF" transform="translate(122 6.625) scale(0.75)"/>
+  <path d="M50 32C50 24 57 19 64 19C71 19 78 24 78 32C78 44 64 54 64 54C64 54 50 44 50 32Z" fill="#7FB8FF" transform="translate(96.8 130.8) scale(0.8)"/>
+  <path d="M50 32C50 24 57 19 64 19C71 19 78 24 78 32C78 44 64 54 64 54C64 54 50 44 50 32Z" fill="#7FE0C8" transform="translate(-16.8 46.45) scale(0.7)"/>
+  <!-- estrellitas -->
+  <path d="M170 86l3.2 7.3 7.3 3.2-7.3 3.2-3.2 7.3-3.2-7.3-7.3-3.2 7.3-3.2 3.2-7.3z" fill="#FFD96B"/>
+  <circle cx="164" cy="150" r="3.5" fill="#7FB8FF"/>
+  <circle cx="38" cy="158" r="3" fill="#7FE0C8"/>
+</svg>
