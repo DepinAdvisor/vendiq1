@@ -6,6 +6,7 @@ import Navbar from "@/components/sections/Navbar";
 import Footer from "@/components/sections/Footer";
 import WhatsAppFloat from "@/components/sections/WhatsAppFloat";
 import { BRAND_NAME, SITE_NAME, SITE_URL } from "@/lib/site";
+import { jsonLd } from "@/lib/seo";
 
 const fredoka = Fredoka({
   subsets: ["latin"],
@@ -77,6 +78,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${fredoka.variable} ${nunito.variable}`}
     >
       <body className="bg-cosmos font-body text-ink-soft">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd()) }}
+        />
         <MotionProvider>
           <Navbar />
           <main>{children}</main>
