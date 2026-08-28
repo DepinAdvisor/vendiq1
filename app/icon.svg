@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <radialGradient id="p" cx="38%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#FFC4DE"/>
+      <stop offset="55%" stop-color="#F48FB8"/>
+      <stop offset="100%" stop-color="#B49CFF"/>
+    </radialGradient>
+  </defs>
+  <!-- anillo orbital -->
+  <ellipse cx="100" cy="104" rx="90" ry="32" transform="rotate(-16 100 100)" stroke="#7C5CFF" stroke-width="7" opacity="0.5" fill="none"/>
+  <!-- cuerpo esponjoso -->
+  <g fill="url(#p)">
+    <circle cx="54" cy="100" r="24"/>
+    <circle cx="146" cy="100" r="24"/>
+    <circle cx="100" cy="56" r="24"/>
+    <circle cx="100" cy="144" r="24"/>
+    <circle cx="67" cy="68" r="24"/>
+    <circle cx="133" cy="68" r="24"/>
+    <circle cx="67" cy="132" r="24"/>
+    <circle cx="133" cy="132" r="24"/>
+    <circle cx="100" cy="100" r="58"/>
+  </g>
+  <!-- carita -->
+  <circle cx="82" cy="94" r="8" fill="#3A2A63"/>
+  <circle cx="118" cy="94" r="8" fill="#3A2A63"/>
+  <circle cx="84.5" cy="91.5" r="2.8" fill="#fff"/>
+  <circle cx="120.5" cy="91.5" r="2.8" fill="#fff"/>
+  <path d="M90 114c6.5 7.5 13 7.5 20 0" stroke="#3A2A63" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <!-- estrellas -->
+  <path d="M28 26l4 9 9 4-9 4-4 9-4-9-9-4 9-4 4-9z" fill="#FFD96B"/>
+  <circle cx="172" cy="34" r="5" fill="#FF8FB3"/>
+  <circle cx="170" cy="158" r="4.5" fill="#7FB8FF"/>
+</svg>
