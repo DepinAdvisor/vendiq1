@@ -43,4 +43,5 @@ next-env.d.ts
 # research / local tooling (not part of the site)
 .playwright-mcp/
 assets/
+screenshots/
 

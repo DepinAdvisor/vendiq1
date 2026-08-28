@@ -1,26 +1,109 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
+/* Fuentes: las variables de next/font se resuelven en tiempo de ejecución,
+   por eso viven en un bloque @theme inline. */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fredoka);
+  --font-body: var(--font-nunito);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@theme {
+  /* ===== Paleta pastel cosmos + feria de dulces ===== */
+  --color-cosmos: #f3effc; /* base de página */
+  --color-sky: #e7f1ff; /* tinte azul cielo */
+  --color-cotton: #fff0f7; /* tinte rosa algodón */
+  --color-ink: #3a2a63; /* títulos — violeta espacial profundo */
+  --color-ink-soft: #5d5478; /* texto de cuerpo */
+  --color-ink-faint: #8b82a8; /* solo notas y captions */
+  --color-brand-400: #f48fb8;
+  --color-brand-500: #e85d9e; /* rosa CTA principal */
+  --color-brand-600: #d63d8f; /* hover/activo */
+  --color-violet-500: #7c5cff; /* acento secundario, links */
+  --color-violet-600: #6340e6;
+  --color-sprinkle-pink: #ff8fb3;
+  --color-sprinkle-blue: #7fb8ff;
+  --color-sprinkle-lavender: #b49cff;
+  --color-sprinkle-mint: #7fe0c8;
+  --color-sprinkle-lemon: #ffd96b;
+  --color-sprinkle-orange: #ffb77f;
+  --color-sprinkle-grape: #c58fff;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-ink: #04230f; /* texto sobre fondo WhatsApp (accesible) */
+  --color-glass: rgb(255 255 255 / 0.65);
+
+  /* ===== Radios ===== */
+  --radius-card: 1.5rem;
+  --radius-blob: 2.5rem;
+
+  /* ===== Sombras con tinte violeta ===== */
+  --shadow-soft: 0 6px 24px -6px rgb(58 42 99 / 0.12),
+    0 2px 6px rgb(58 42 99 / 0.06);
+  --shadow-lift: 0 16px 40px -12px rgb(58 42 99 / 0.2);
+  --shadow-glow-pink: 0 10px 30px -6px rgb(232 93 158 / 0.35);
+  --shadow-glow-violet: 0 10px 30px -6px rgb(124 92 255 / 0.3);
+
+  /* ===== Animaciones infinitas (los entrances usan la librería motion) ===== */
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-float-slow: float 9s ease-in-out infinite;
+  --animate-twinkle: twinkle 3.2s ease-in-out infinite;
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-spin-slow: spin 45s linear infinite;
+  --animate-pulse-ring: pulse-ring 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-14px);
+    }
+  }
+  @keyframes twinkle {
+    0%,
+    100% {
+      opacity: 0.25;
+      transform: scale(0.85);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+  }
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes pulse-ring {
+    0% {
+      transform: scale(1);
+      opacity: 0.6;
+    }
+    100% {
+      transform: scale(1.7);
+      opacity: 0;
+    }
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cosmos font-body text-ink-soft antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-ink;
+  }
+  ::selection {
+    @apply bg-brand-400/40;
+  }
 }
